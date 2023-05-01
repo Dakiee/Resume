@@ -1,406 +1,384 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resume</title>
 
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume</title>
+
+  <!--
     - favicon
   -->
-    <link
-      rel="shortcut icon"
-      href="./assets/images/logo.ico"
-      type="image/x-icon"
-    />
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
 
-    <!--
+  <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!--
+  <!--
     - google font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
-    <!--
+<body>
+  <!--
     - #MAIN
   -->
 
-    <main>
-      <!--
+  <main>
+    <!--
       - #SIDEBAR
     -->
 
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img src="./assets/images/my-avatar.png" alt="Dakie" width="80" />
-          </figure>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Dakie" width="80" />
+        </figure>
 
-          <div class="info-content">
-            <h1 class="name" title="Dakie">Dakie</h1>
+        <div class="info-content">
+          <h1 class="name" title="Dakie">Dakie</h1>
 
-            <p class="title">Web developer</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+          <p class="title">Web developer</p>
         </div>
 
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
 
-                <a href="mailto:ldavaanyam@gmail.com" class="contact-link"
-                  >ldavaanyam@gmail.com</a
-                >
-              </div>
-            </li>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
+              <a href="mailto:ldavaanyam@gmail.com" class="contact-link">ldavaanyam@gmail.com</a>
+            </div>
+          </li>
 
-                <a href="tel:+976 99249599" class="contact-link">99249599</a>
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
+              <a href="tel:+976 99249599" class="contact-link">99249599</a>
+            </div>
+          </li>
 
-                <time datetime="2002-09-02">Sep 02, 2002</time>
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
+              <time datetime="2002-09-02">Sep 02, 2002</time>
+            </div>
+          </li>
 
-                <address>Ulanbator, Mongolia</address>
-              </div>
-            </li>
-          </ul>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-          <div class="separator"></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
 
-          <ul class="social-list">
-            <li class="social-item">
-              <a
-                href="https://www.facebook.com/profile.php?id=100022653698470"
-                class="social-link"
-              >
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
+              <address>Ulanbator, Mongolia</address>
+            </div>
+          </li>
+        </ul>
 
-            <li class="social-item">
-              <a href="https://github.com/dakiee" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
+        <div class="separator"></div>
 
-            <li class="social-item">
-              <a
-                href="https://www.instagram.com/davaanyamm/"
-                class="social-link"
-              >
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/profile.php?id=100022653698470" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
 
-      <!--
+          <li class="social-item">
+            <a href="https://github.com/dakiee" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/davaanyamm/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
       - #main-content
     -->
 
-      <div class="main-content">
-        <!--
+    <div class="main-content">
+      <!--
         - #NAVBAR
       -->
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+        </ul>
+      </nav>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          Hello, I am a 3rd year software engineering student at National University of Mongolia. I would like to intern
+          using my experience in web application development. Also, I am trying to learn machine learning and artificial
+          intelligence, which is the most talked about tpoic in the corporate world right now.
+        </section>
+        <section class="service">
+          <h3 class="h3 service-title">Things that i can do</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Trying to make modern and high-quality design.
+                </p>
+              </div>
             </li>
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Currently developing my small websites using NextJS, Laravel, Django, ReactJS.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Games</h4>
+
+                <p class="service-item-text">
+                  Made a retro game using OpenGL and SFML libraries :D
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  It's about creating a moment, bringing a vision to life. I will never get bored.
+                </p>
+              </div>
             </li>
           </ul>
-        </nav>
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
-          <section class="about-text">
-            Hello, I am a 3rd year software engineering student at National University of Mongolia. I would like to intern using my experience in web application development. Also, I am trying to learn machine learning and artificial intelligence, which is the most talked about tpoic in the corporate world right now.
+        </section>
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn style="display: none;">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
           </section>
-          <section class="service">
-            <h3 class="h3 service-title">Things that i can do</h3>
+        </div>
+      </article>
 
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-design.svg
-                "
-                    alt="design icon"
-                    width="40"
-                  />
-                </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web design</h4>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
 
-                  <p class="service-item-text">
-                    Trying to make modern and high-quality design.
-                  </p>
-                </div>
-              </li>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-dev.svg"
-                    alt="Web development icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web development</h4>
-
-                  <p class="service-item-text">
-                    Currently developing my small websites using NextJS, Laravel, Django, ReactJS.
-                  </p>
-                </div>
-              </li>
-
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-app.svg"
-                    alt="mobile app icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Games</h4>
-
-                  <p class="service-item-text">
-                    Made a retro game using OpenGL and SFML libraries :D
-                  </p>
-                </div>
-              </li>
-
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-photo.svg"
-                    alt="camera icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Photography</h4>
-
-                  <p class="service-item-text">
-                    It's about creating a moment, bringing a vision to life. I will never get bored.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
-
-          <div class="modal-container" data-modal-container>
-            <div class="overlay" data-overlay></div>
-            <section class="testimonials-modal">
-              <button class="modal-close-btn" data-modal-close-btn style="display: none;">
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
-            </section>
+            <h3 class="h3">Education</h3>
           </div>
-        </article>
 
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                National University Of Mongolia
+              </h4>
 
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
+              <span>2020 - Present</span>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
+              <p class="timeline-text">
 
-              <h3 class="h3">Education</h3>
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  National University Of Mongolia
-                </h4>
+            <h3 class="h3">My Projects</h3>
+          </div>
 
-                <span>2020 - Present</span>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a href="https://merchant.capitronbank.mn/">Merchant Capitron Bank</a>
+              </h4>
+              <span>2022</span>
+              <p class="timeline-text">
+                Used Laravel and JQuery
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a href="https://digital.hackum.club/">Hackum Appathon</a></h4>
+              <span>2022</span>
+              <p class="timeline-text">
+                Used NextJS
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a href="https://mcscocacola.me/">MCS CocaCola</a></h4>
+              <span>2022</span>
+              <p class="timeline-text">
+                Used HTML, CSS and Vanilla JavaScript
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a href="https://github.com/Dakiee/OpenGL-Space-Invaders">Space
+                  Invaders Game</a></h4>
+              <span>2022</span>
+              <p class="timeline-text">
+                Used OpenGL
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a href="https://github.com/Dakiee/FoodRecipes">Easy Food Recipe</a>
+              </h4>
+              <span>2022</span>
+              <p class="timeline-text">
+                Used JavaFX
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a href="https://cv-builder-flame.vercel.app/">Interactive CV Builder</a>
+              </h4>
+              <span>2023</span>
+              <p class="timeline-text">
+                Used NextJS and ExpressJS
+              </p>
+            </li>
+          </ol>
+        </section>
 
-                <p class="timeline-text">
-                  
-                </p>
-              </li>
-            </ol>
-          </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript, Java</h5>
+                <data value="91">91%</data>
               </div>
 
-              <h3 class="h3">My Projects</h3>
-            </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 91%"></div>
+              </div>
+            </li>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title"><a href="https://merchant.capitronbank.mn/">Merchant Capitron Bank</a></h4>
-                <span>2022</span>
-                <p class="timeline-text">
-                  Used Laravel and JQuery
-                </p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title"><a href="https://digital.hackum.club/">Hackum Appathon</a></h4>
-                <span>2022</span>
-                <p class="timeline-text">
-                  Used NextJS
-                </p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title"><a href="https://mcscocacola.me/">MCS CocaCola</a></h4>
-                <span>2022</span>
-                <p class="timeline-text">
-                  Used HTML, CSS and Vanilla JavaScript
-                </p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title"><a href="https://github.com/Dakiee/OpenGL-Space-Invaders">Space Invaders Game</a></h4>
-                <span>2022</span>
-                <p class="timeline-text">
-                  Used OpenGL
-                </p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title"><a href="https://github.com/Dakiee/FoodRecipes">Easy Food Recipe</a></h4>
-                <span>2022</span>
-                <p class="timeline-text">
-                  Used JavaFX
-                </p>
-              </li>
-            </ol>
-          </section>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">PHP</h5>
+                <data value="95">95%</data>
+              </div>
 
-          <section class="skill">
-            <h3 class="h3 skills-title">My skills</h3>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%"></div>
+              </div>
+            </li>
 
-            <ul class="skills-list content-card">
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">JavaScript, Java</h5>
-                  <data value="80">80%</data>
-                </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML, CSS</h5>
+                <data value="100">100%</data>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">PHP</h5>
-                  <data value="80">80%</data>
-                </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">80%</data>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <button class="filter-select" data-select style="display: none;"></button>
+    </div>
+  </main>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">HTML, CSS</h5>
-                  <data value="90">90%</data>
-                </div>
+  <script src="./assets/js/script.js"></script>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%"></div>
-                </div>
-              </li>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Python</h5>
-                  <data value="80">80%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
-            </ul>
-          </section>
-        </article>
-        <button class="filter-select" data-select style="display: none;"></button>
-      </div>
-    </main>
-
-    <script src="./assets/js/script.js"></script>
-
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
 </html>
